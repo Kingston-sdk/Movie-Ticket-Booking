@@ -1,0 +1,137 @@
+.Navbar {
+    background-color: #9c7a7a;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: rgb(9, 6, 6);
+  }
+  
+  .navbar-list {
+    display: flex;
+    gap: 40px;
+    color: rgb(9, 5, 5);
+    list-style: none;
+  }
+  
+  .navbar-list li :hover {
+    background-color: rgb(229, 251, 143);
+    
+    cursor: pointer;
+  }
+  p{
+    color: black;
+  }
+  
+  .navbar-button {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .form-control {
+    padding: 4px 8px; 
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: rgb(14, 6, 6);
+    border: none;
+    padding: 8px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .main-content {
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .movie-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    padding: 20px;
+  }
+  
+  .movie {
+    width: 420%;
+    height: 570px;
+    border-radius: 5px;
+    background-image: url("https://wallpapercave.com/wp/wp2411599.jpg");
+  }
+  .Navbar {
+    background-color: #f2efef;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+}
+
+.navbar-list {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.navbar-list li :hover {
+    background-color: rgb(229, 251, 143);
+    cursor: pointer;
+}
+
+.navbar-button {
+    display: flex;
+    gap: 10px;
+}
+
+.form-control {
+    padding: 4px 8px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.mo-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    padding: 20px;
+}
+
+.mov {
+    width: 100%; 
+    height: 100vh;
+    border-radius: 5px;
+    background-size: cover;
+    background-image: url("https://wallpapercave.com/wp/wp2411501.jpg");
+}
+
+  
+   

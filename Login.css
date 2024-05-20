@@ -1,0 +1,60 @@
+.Login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("https://i.pinimg.com/originals/b9/ac/4f/b9ac4fcbfe739a99fc98d3fc90369525.png");
+    background-size: cover;
+  }
+  
+  .component {
+    color: aliceblue;
+    padding: 20px;
+    text-align: center; 
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+  }
+  
+  .input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    margin-left: 10px;
+  }
+  
+ 
+  label,
+  input {
+    margin-left: 5px;
+    margin-right:5px;
+  }
+  
+  input {
+    padding: 2px 5px;
+    border-radius: 10px;
+    
+    text-align:justify;
+    border: none;
+    background-color: #f5f5f5;
+  }
+  
+  button {
+    border-radius: 5px;
+    padding: 5px 20px ;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: none;
+    background-color: #87c5ff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+
+    background-color: #9a87fb;
+  }
+  
